@@ -45,6 +45,9 @@ To compile and run the game, follow these steps:
    cd <repository-name>
 
 2. Compile the code using g++
+   ```bash
    g++ main.cpp game.cpp building.cpp plane.cpp fileio.cpp -o SaveKaiTak
 
-3. Run the game: ./SaveKaiTak
+4. Run the game:
+   ```bash
+   ./SaveKaiTak
