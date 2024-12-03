@@ -1,6 +1,6 @@
 # COMP2113-Group-3-Project: Save Kai Tak 
 **Ready to take off? Let’s see if you have what it takes to save Kai Tak! ✈**
-Watch the demo to get yourself started:
+- Watch the demo to get yourself started:
 
 # Team Members 🧑‍💻👩‍💻 
 - Bibi Hajirah (3036193578)
