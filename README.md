@@ -36,8 +36,19 @@ The following features have been implemented in the game, fulfilling the coding 
 ## Libraries
 No non-standard C/C++ libraries are used in this project. The code is compatible with standard libraries and does not require additional installations.
 
+## Makefile
+A Makefile is included in the project to simplify the compilation process. To build the project, use the following commands:
+
+1. **Compile the Project**:
+   ```bash
+   make
+
+2. **Clean the Project:**
+   ```bash
+   make clean
+
 ## Compilation and Execution Instructions
-To compile and run the game, follow these steps:
+If you prefer to compile manually without the Makefile, follow these steps:
 
 1. Clone the repository to your local machine:
    ```bash
