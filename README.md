@@ -2,9 +2,9 @@
 COMP2113 Group Project: Group 3
 
 # Team Members
-**Bibi Hajirah**: 3036193578
-**Fatima-Tul-Zahra**: 
-**Khan Saahil Alam**: 
+**Bibi Hajirah**: 3036193578,
+**Fatima-Tul-Zahra**: ,
+**Khan Saahil Alam**: ,
 **Syed Ali Mohamed Faisal**:
 
 # Description
