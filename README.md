@@ -39,20 +39,20 @@ No non-standard C/C++ libraries are used in this project. The code is compatible
 ## Compilation and Execution Instructions with Makefile
 A Makefile is included in the project to simplify the compilation process. To build and run the project, follow these steps:
 
-1. **Clone the repository to your local machine:**
+1. **Clone the repository to your local machine**:
    ```bash
    git clone <repository-url>
    cd <repository-name>
 
-2. **Compile the project:**
+2. **Compile the project**:
    ```bash
    make
    g++ main.cpp game.cpp building.cpp plane.cpp fileio.cpp -o SaveKaiTak
 
-3. **Run the game:**
+3. **Run the game**:
    ```bash
    ./SaveKaiTak
    
-4. **Clean the Project:**
+4. **Clean the Project**:
    ```bash
    make clean
