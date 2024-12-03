@@ -4,8 +4,8 @@ COMP2113 Group Project: Group 3
 # Team Members
 **Bibi Hajirah**: 3036193578,
 **Fatima-Tul-Zahra**: 3036217037,
-**Khan Saahil Alam**: ,
-**Syed Ali Mohamed Faisal**:
+**Khan Saahil Alam**: 3036073558,
+**Syed Ali Mohamed Faisal**: 3035977068
 
 # Description
 **Save Kai Tak** is a text-based mini-game where players control a plane navigating through gaps between buildings, similar to Flappy Bird. The objective is to avoid collisions and achieve the highest score. With random events and increasing difficulty, the game offers engaging and challenging gameplay that emphasizes timing and precision.
