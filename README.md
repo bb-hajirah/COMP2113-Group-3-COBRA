@@ -1,5 +1,6 @@
 # COMP2113-Group-3-Project: Save Kai Tak 
-Watch the demo:
+**Ready to take off? Let’s see if you have what it takes to save Kai Tak! ✈**
+Watch the demo to get yourself started:
 
 # Team Members 🧑‍💻👩‍💻 
 - Bibi Hajirah (3036193578)
@@ -51,5 +52,3 @@ Here’s what makes **Save Kai Tak** special:
 
 ## Libraries 📖
 No non-standard C/C++ libraries are used in this project. The code is compatible with standard libraries and does not require additional installations.
-
-# Ready to take off? Let’s see if you have what it takes to save Kai Tak! ✈
