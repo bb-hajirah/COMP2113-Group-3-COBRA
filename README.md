@@ -3,12 +3,12 @@ COMP2113 Group Project: Group 3
 
 # Team Members
 **Bibi Hajirah**: 3036193578,
-**Fatima-Tul-Zahra**: 3036217037 ,
+**Fatima-Tul-Zahra**: 3036217037,
 **Khan Saahil Alam**: ,
 **Syed Ali Mohamed Faisal**:
 
 # Description
-**Save Kai Tak** is a text-based mini-game where players control a plane navigating through gaps between buildings. The objective is to avoid collisions while trying to achieve the highest score. The game includes random events and increasing difficulty to enhance gameplay.
+**Save Kai Tak** is a text-based mini-game where players control a plane navigating through gaps between buildings, similar to Flappy Bird. The objective is to avoid collisions and achieve the highest score. With random events and increasing difficulty, the game offers engaging and challenging gameplay that emphasizes timing and precision.
 
 # Features
 The following features have been implemented in the game, fulfilling the coding requirements:
@@ -36,29 +36,23 @@ The following features have been implemented in the game, fulfilling the coding 
 ## Libraries
 No non-standard C/C++ libraries are used in this project. The code is compatible with standard libraries and does not require additional installations.
 
-## Makefile
-A Makefile is included in the project to simplify the compilation process. To build the project, use the following commands:
+## Compilation and Execution Instructions with Makefile
+A Makefile is included in the project to simplify the compilation process. To build and run the project, follow these steps:
 
-1. **Compile the Project**:
-   ```bash
-   make
-
-2. **Clean the Project:**
-   ```bash
-   make clean
-
-## Compilation and Execution Instructions
-If you prefer to compile manually without the Makefile, follow these steps:
-
-1. Clone the repository to your local machine:
+1. **Clone the repository to your local machine:**
    ```bash
    git clone <repository-url>
    cd <repository-name>
 
-2. Compile the code using g++
+2. **Compile the project:**
    ```bash
+   make
    g++ main.cpp game.cpp building.cpp plane.cpp fileio.cpp -o SaveKaiTak
 
-4. Run the game:
+3. **Run the game:**
    ```bash
    ./SaveKaiTak
+   
+4. **Clean the Project:**
+   ```bash
+   make clean
