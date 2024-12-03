@@ -1,60 +1,54 @@
-# Save Kai Tak
-COMP2113 Group Project: Group 3
+# COMP2113-Group-3-Project: Save Kai Tak 
+Watch the demo:
 
-# Team Members
-•	Bibi Hajirah (3036193578)
-•	Fatima-Tul-Zahra (3036217037)
-•	Khan Saahil Alam (3036073558)
-•	Syed Ali Mohamed Faisal (3035977068)
+# Team Members 🧑‍💻👩‍💻 
+- Bibi Hajirah (3036193578)
+- Fatima-Tul-Zahra (3036217037)
+- Khan Saahil Alam (3036073558)
+- Syed Ali Mohamed Faisal (3035977068)
 
+# Description ✈
+**Save Kai Tak** is a text-based mini-game where players control a plane navigating through gaps between buildings, inspired by the gameplay mechanics of Flappy Bird. Set against a backdrop of urban landscapes, the objective is to avoid collisions while achieving the highest score. Players must skillfully maneuver their plane through obstacles, competing against increasing difficulty and random events.
 
+**Your mission**: Avoid collisions and achieve the highest score while facing random events and increasing difficulty.
 
-# Description
-**Save Kai Tak** is a text-based mini-game where players control a plane navigating through gaps between buildings, similar to Flappy Bird. The objective is to avoid collisions and achieve the highest score. With random events and increasing difficulty, the game offers engaging and challenging gameplay that emphasizes timing and precision.
+# How to play? 🧐
+In the main menu, you have the following options:
+- **Start Game**: Jump right into the action.
+- **Read Backstory**: ??
+- **Choose Difficulty**: Select the right level to match your skills, from beginner to expert.
+  
+**Controls**
+- **WASD Keys**: Use these keys to change your plane's direction, navigating the game area to collect points. When you reach the edge of the screen, you will appear on the opposite side.
 
-# Features
-The following features have been implemented in the game, fulfilling the coding requirements:
+**Compilation and Execution Instructions** ⚙️
+To play the game follow these simple steps:
+1. Compile the game by typing: `make`
+2. To start the game, enter:`./SaveKaiTak`. That's it!
+3. (Optional) To clean up the project, run: `make clean`
 
-1. **Generation of Random Events**: 
-   - Random building heights are generated to create gaps for the plane to navigate through.
+# Features Implemented 🚀
+Here’s what makes **Save Kai Tak** special:
 
-2. **Data Structures for Storing Data**: 
-   - Dynamic arrays are used to store high scores and building data, allowing for efficient memory management.
+**Random Generation of Random Events**
+- Each game is unique with randomly generated building heights to create gaps for the plane to navigate through.
 
-3. **Dynamic Memory Management**: 
-   - The game allocates and deallocates memory for high scores dynamically to optimize resource usage and prevent memory leaks.
+**Data Structures for Storing Data**
+- Dynamic arrays are used to store high scores and building data, allowing for efficient memory management.
 
-4. **File Input/Output**: 
-   - High scores can be saved to and loaded from a text file, enabling persistent storage of player achievements.
+**Dynamic Memory Management**
+- The game allocates and deallocates memory for high scores dynamically to optimize resource usage and prevent memory leaks.
 
-5. **Program Codes in Multiple Files**: 
-   - The project is organized into multiple files, including:
-     - `main.cpp`: Entry point of the game.
-     - `game.h` and `game.cpp`: Game logic implementation.
-     - `building.h` and `building.cpp`: Building generation and management.
-     - `plane.h` and `plane.cpp`: Plane mechanics.
-     - `fileio.h` and `fileio.cpp`: File input/output operations.
+**File Input/Output**
+- High scores can be saved to and loaded from a text file, enabling persistent storage of player achievements.
 
-## Libraries
+**Program Codes in Multiple Files**
+- The project is organized into multiple files, including:
+  - `main.cpp`: Entry point of the game.
+  - `game.h` and `game.cpp`: Core game logic mechanics.
+  - `building.h` and `building.cpp`: Management of building generation.
+  - `plane.h` and `plane.cpp`: Controls and mechanics for the plane.
+  - `fileio.h` and `fileio.cpp`: Handles file input/output for saving and loading scores.
+
+## Libraries 📖
 No non-standard C/C++ libraries are used in this project. The code is compatible with standard libraries and does not require additional installations.
-
-## Compilation and Execution Instructions with Makefile
-A Makefile is included in the project to simplify the compilation process. To build and run the project, follow these steps:
-
-1. **Clone the repository to your local machine**:
-   ```bash
-   git clone <repository-url>
-   cd <repository-name>
-
-2. **Compile the project**:
-   ```bash
-   make
-   g++ main.cpp game.cpp building.cpp plane.cpp fileio.cpp -o SaveKaiTak
-
-3. **Run the game**:
-   ```bash
-   ./SaveKaiTak
-   
-4. **Clean the Project**:
-   ```bash
-   make clean
