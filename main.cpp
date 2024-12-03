@@ -1,17 +1,20 @@
 #include "fileio.h"
 
-// Example usage
-int* highScores;
-int size;
+int main() {
+    int* highScores; // pointer for storing high scores
+    int size; // variable to hold the size of the scores array
 
-// Load high scores at the start of the game
-highScores = FileIO::loadHighScores("highscores.txt", size);
+    // load high scores at the start of the game
+    highScores = FileIO::loadHighScores("highscores.txt", size);
 
-// After the game ends, save the new high scores
-FileIO::saveHighScores(highScores, size, "highscores.txt");
+    // after the game ends, save the new high scores
+    FileIO::saveHighScores(highScores, size, "highscores.txt");
 
-// Display high scores
-FileIO::displayHighScores(highScores, size);
+    // display high scores
+    FileIO::displayHighScores(highScores, size);
 
-// Cleanup
-delete[] highScores; // Free memory when done
+    // cleanup: Free memory allocated for high scores
+    delete[] highScores; // call this to prevent memory leaks
+
+    return 0; // exit the program
+}
