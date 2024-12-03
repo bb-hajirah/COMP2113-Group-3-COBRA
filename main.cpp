@@ -1,6 +1,7 @@
 #include "fileio.h"
 
 int main() {
+    // for fileio.h/cpp
     int* highScores; // pointer for storing high scores
     int size; // variable to hold the size of the scores array
 
