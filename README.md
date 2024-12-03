@@ -1,4 +1,4 @@
-# Save-Kai-Tak
+# Save Kai Tak
 COMP2113 Group Project: Group 3
 
 # Team Members
