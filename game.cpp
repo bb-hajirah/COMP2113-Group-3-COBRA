@@ -1,4 +1,4 @@
-game.cpp:											#include <iostream>
+#include <iostream>
 #include <cstdlib>
 #include <ncurses.h>
 #include "environment.h"
