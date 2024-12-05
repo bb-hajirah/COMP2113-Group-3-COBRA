@@ -17,7 +17,8 @@
 In the main menu, you have the following options:
 - **Start Game**: Jump right into the action and guide Cobra through the food maze.
 - **Read Backstory**: Learn about Cobra’s journey towards a healthy lifestyle.
-- **Choose Difficulty**: Select a suitable level to match your skills, from beginner to expert.
+- **Instructions**
+- **Exit**
   
 **Controls**
 - **Arrow Keys**: Use the up, down, left, and right arrow keys to change Cobra's direction and navigate the game area. When you reach the edge of the screen, you will appear on the opposite side.
