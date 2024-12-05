@@ -8,7 +8,7 @@
 - Khan Saahil Alam (3036073558)
 - Syed Ali Mohamed Faisal (3035977068)
 
-# Description ✈
+# Description 🐍
 **Save Kai Tak** is a text-based mini-game where players control a plane navigating through gaps between buildings, inspired by the mechanics of Flappy Bird. Set against an urban landscape, your objective is to avoid collisions and achieve the highest score.
 
 **Your mission**: Skillfully maneuver your plane through obstacles while facing increasing difficulty and random events. Can you outsmart the challenges and claim the highest score?
