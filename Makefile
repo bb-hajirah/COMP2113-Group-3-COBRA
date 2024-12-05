@@ -7,7 +7,7 @@ CXX = g++
 CXXFLAGS = -Wall -g -lncurses
 
 # Source files
-SRC = main.cpp environment.cpp game.cpp food.cpp board.cpp
+SRC = main.cpp environment.cpp game.cpp board.cpp
 
 # Header files (optional, for reference)
 HDR = environment.h game.h board.h
