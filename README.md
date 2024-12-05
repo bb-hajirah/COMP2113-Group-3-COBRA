@@ -37,12 +37,12 @@ Here’s what makes **COBRA++** special:
 
   
 **Program Codes in Multiple Files**
-- The project is organized into multiple files, including:
-  - `main.cpp`: Entry point of the game.
-  - `environment.h` and `environment.cpp`: Manages game environment and rendering.
-  - `game.h` and `game.cpp`: Core game logic mechanics.
-  - `board.h` and `board.cpp`:
-  - `Makefile`: Automates the build process for compiling the project.
+- The project is organized into multiple files:
+- **`main.cpp`**: Entry point of the game.
+- **`environment.h` and `environment.cpp`**: Manages the game environment and rendering.
+- **`game.h` and `game.cpp`**: Contains the core game logic and mechanics.
+- **`board.h` and `board.cpp`**: Handles the game board, including drawing and updating the game state.
+- **`Makefile`**: Automates the build process for compiling the project.
 
 ## Libraries 📖
 No non-standard C/C++ libraries are used in this project. The code is compatible with standard libraries and does not require additional installations.
