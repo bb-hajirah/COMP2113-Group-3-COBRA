@@ -4,7 +4,7 @@
 #include "environment.h"
 #include "game.h"
 
-void Snakecontrol() {
+void Logic() {
     int prevX = tailX[0];
     int prevY = tailY[0];
     int prev2X, prev2Y;
