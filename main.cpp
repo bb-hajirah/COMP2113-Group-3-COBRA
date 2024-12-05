@@ -1,4 +1,4 @@
-main.cpp: “#include <iostream>
+#include <iostream>
 #include <ncurses.h>
 #include <cstdlib>
 #include <unistd.h>
@@ -166,4 +166,4 @@ int main() {
 
     return 0;
 }
-"
+
