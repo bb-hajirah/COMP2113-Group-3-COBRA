@@ -1,6 +1,8 @@
 #ifndef ENVIRONMENT_H
 #define ENVIRONMENT_H
 
+#include <ncurses.h>
+
 extern bool gameOver;
 extern const int width;
 extern const int height;
@@ -14,6 +16,6 @@ enum eDirection { STOP = 0, LEFT, RIGHT, UP, DOWN };
 extern eDirection dir;
 
 void Setup();
-void Draw();
+void Draw(WINDOW* win);
 
 #endif
