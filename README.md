@@ -1,4 +1,4 @@
-# COMP2113-Group-3-Project: Save Kai Tak 
+# COMP2113-Group-3-Project: Snake Game
 **Ready to take off? Let’s see if you have what it takes to save Kai Tak! ✈**
 - Watch the demo to get yourself started:
 
