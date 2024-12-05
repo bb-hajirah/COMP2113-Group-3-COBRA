@@ -1,27 +1,18 @@
-# Makefile for COBRA++
+# Makefile for COBRA++ game
 
-# Compiler
 CXX = g++
+CXXFLAGS = -pedantic-errors -std=c++11
+LDFLAGS = -lncurses
 
-# Compiler flags
-CXXFLAGS = -Wall -g -lncurses
+# Targets
+all: COBRA++
 
-# Source files
-SRC = main.cpp environment.cpp game.cpp board.cpp
+# Compile and link all source files into the executable
+COBRA++: main.cpp environment.cpp game.cpp board.cpp
+	$(CXX) $(CXXFLAGS) main.cpp environment.cpp game.cp    p board.cpp -o COBRA++ $(LDFLAGS)
 
-# Header files (optional, for reference)
-HDR = environment.h game.h board.h
-
-# Executable name
-TARGET = COBRA++
-
-# Build target
-all: $(TARGET)
-
-# Link the object files into the final executable
-$(TARGET): $(SRC)
-	$(CXX) $(SRC) -o $(TARGET) $(CXXFLAGS)
-
-# Clean up the build
+# Clean target to remove generated files
 clean:
-	rm -f $(TARGET) *.o
+	rm -f COBRA++
+
+.PHONY: clean
