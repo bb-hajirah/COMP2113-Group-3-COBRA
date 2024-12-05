@@ -19,4 +19,4 @@ private:
     WINDOW* scoreWin; // Add a window for the score
 };
 
-#endif”
+#endif
