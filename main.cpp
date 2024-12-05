@@ -85,9 +85,9 @@ void DisplayMenu() {
                 printWithDelay("He discovered that by eating healthy fruits like apples, bananas, and oranges, he could grow bigger and faster.\n", 50);
                 printWithDelay("Each fruit he ate made him feel energized and happy.\n", 50);
                 printWithDelay("Cobra learned that healthy foods help him play better and feel great!\n", 50);
-                printWithDelay("HOWEVER!!\n", 50); // Added delay
+                printWithDelay("HOWEVER!!\n", 50); 
                 printWithDelay("Once he eats junk food like chocolate or ice cream, he grows shorter and feels weaker.\n", 50);
-                printWithDelay("So....\n", 50); // Added delay
+                printWithDelay("So....\n", 50); 
                 printWithDelay("he encouraged all his friends to munch on delicious fruits too, showing them that eating healthy is not just good for growing,\n", 50);
                 printWithDelay("but also super fun!\n", 50);
                 printWithDelay("Avoid hitting your own tail if you want to grow longer!\n", 50);
@@ -129,7 +129,7 @@ int main() {
     init_pair(2, COLOR_GREEN, COLOR_GREEN);  // Snake color
     init_pair(3, COLOR_RED, COLOR_BLACK);    // Apple color
     init_pair(4, COLOR_YELLOW, COLOR_BLACK); // Banana color
-    init_color(COLOR_CYAN, 700, 400, 0);
+    init_color(COLOR_CYAN, 700, 400, 0); // 
     init_pair(5, COLOR_CYAN, COLOR_BLACK);   // Orange color
     #define COLOR_BROWN 8
     init_color(COLOR_BROWN, 400, 200, 0); // RGB values for brown
