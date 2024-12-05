@@ -48,4 +48,4 @@ Here’s what makes **COBRA++** special:
 No non-standard C/C++ libraries are used in this project. The code is compatible with standard libraries and does not require additional installations.
 
 ## Acknowledgment 🙏
-We took inspiration from the YouTube video by NVitanovic to understand the basic structure of the game. [Watch here](https://www.youtube.com/watch?v=E_-lMZDi7Uw).
+We took inspiration from the YouTube video by NVitanovic to understand the basic structure of the game. [[Watch here](https://www.youtube.com/watch?v=E_-lMZDi7Uw)]
