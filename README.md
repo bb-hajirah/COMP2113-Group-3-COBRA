@@ -25,7 +25,7 @@ In the main menu, you have the following options:
 **Compilation and Execution Instructions**: To play the game follow these simple steps:
 1. Compile the game by typing: `make`
 2. To start the game, enter:`./COBRA++`. That's it!
-3. (Optional) If you prefer to compile manually, use the following command: `g++ main.cpp environment.cpp game.cpp -o COBRA++ -lncurses
+3. (Optional) If you prefer to compile manually, use the following command: `g++ main.cpp environment.cpp game.cpp board.cpp -o COBRA++ -lncurses
 
 # Features Implemented 🚀
 Here’s what makes **COBRA++** special:
@@ -41,6 +41,7 @@ Here’s what makes **COBRA++** special:
   - `main.cpp`: Entry point of the game.
   - `environment.h` and `environment.cpp`: Manages game environment and rendering.
   - `game.h` and `game.cpp`: Core game logic mechanics.
+  - `board.h` and `board.cpp`:
   - `Makefile`: Automates the build process for compiling the project.
 
 ## Libraries 📖
