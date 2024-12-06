@@ -100,6 +100,7 @@ void DisplayMenu() {
                 printWithDelay("Use the arrow keys to move the snake.\n", 50);
                 printWithDelay("Eat healthy fruits (A = Apple, B = Banana, O = Orange) to score points and increase your tail length.\n", 50);
                 printWithDelay("DON'T eat junk food (C = Chocolate, I = Ice Cream).\n", 50);
+                printWithDelay("The LONGER you hold the arrow keys, the FASTER your snake will be!\n", 50);
                 printWithDelay("Avoid colliding with yourself.\n", 50);
                 printWithDelay("Press 'q' to quit the game at any time.\n", 50);
                 printWithDelay("Press any key to return to the menu...\n", 50);
