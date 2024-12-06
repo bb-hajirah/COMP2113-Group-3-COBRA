@@ -1,6 +1,6 @@
 # COMP2113-Group-3-Project: COBRA++ 🐍🍏
 **Ready to embark on a healthy adventure? Let’s see if you have what it takes to guide Cobra to a healthier diet! 🌟**
-- Watch the demo to get yourself started:
+- Watch the demo to get yourself started:[https://youtu.be/YsqWtgI_H3c](url)
 
 # Team Members 🧑‍💻👩‍💻 
 - Bibi Hajirah (3036193578)
