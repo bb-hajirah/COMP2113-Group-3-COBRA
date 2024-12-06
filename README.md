@@ -46,8 +46,9 @@ Here’s what makes **COBRA++** special:
 - **`Makefile`**: Automates the build process for compiling the project.
 
 ## Libraries 📖
--The code is compatible with standard and non-standard libraries. 
--**Integration of the ncurses Library:** The use of `ncurses` library enables the creation of a visually compelling interface for terminal applications, providing seamless controls without the need for a graphical user interface. This allows developers to deliver a rich user experience directly within the terminal environment. 
+The code is compatible with standard and non-standard libraries. 
+
+**Integration of the ncurses Library:** The use of `ncurses` library enables the creation of a visually compelling interface for terminal applications, providing seamless controls without the need for a graphical user interface. This allows developers to deliver a rich user experience directly within the terminal environment. 
 
 ## Acknowledgment 🙏
 We took inspiration from a [Youtube video](https://www.youtube.com/watch?v=E_-lMZDi7Uw) by NVitanovic to understand the basic structure of the game.
