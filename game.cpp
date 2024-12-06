@@ -1,8 +1,23 @@
-#include <iostream>
 #include <cstdlib>
 #include <ncurses.h>
 #include "environment.h"
 #include "game.h"
+#include "board.h"
+
+void RespawnFood(int& foodX, int& foodY) {
+    bool validPosition;
+    do {
+        validPosition = true;
+        foodX = rand() % (width - 2) + 1;
+        foodY = rand() % (height - 2) + 1;
+        for (int i = 0; i < nTail; i++) {
+            if (tailX[i] == foodX && tailY[i] == foodY) {
+                validPosition = false;
+                break;
+            }
+        }
+    } while (!validPosition);
+}
 
 void Logic() {
     int prevX = tailX[0];
@@ -21,7 +36,7 @@ void Logic() {
         prevY = prev2Y;
     }
 
-    switch (dir) {
+switch (dir) {
         case LEFT:
             x--;
             break;
@@ -69,11 +84,13 @@ void Logic() {
         score -= 5;
         chocoX = rand() % (width - 2) + 1; // Respawn chocolate
         chocoY = rand() % (height - 2) + 1;
+	nTail--;
     }
     if (x == icecreamX && y == icecreamY) { // Check for ice cream collision
         score -= 5;
         icecreamX = rand() % (width - 2) + 1; // Respawn ice cream
         icecreamY = rand() % (height - 2) + 1;
+	nTail--;
     }
 }
 
@@ -100,4 +117,5 @@ void Input() {
             break;
     }
 }
+
 
